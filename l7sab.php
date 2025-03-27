@@ -1,5 +1,5 @@
 <?php
-    $file = "E:\Lma7al\Mars.txt";
+    $file = "Mars.txt";
     $of = fopen($file,"r");
     $ligne = "";
     $prixA = 0;
