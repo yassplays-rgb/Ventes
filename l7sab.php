@@ -14,6 +14,7 @@
                 $prixV += (float)$table[2];
                 $benefice += (float)$table[3];
         }
+        echo basename($file,".txt") . "\n";
         echo "Votre achats au total est : " . $prixA ;
         echo "\n Votre Total de ventes est : " . $prixV;
         echo "\n Votre benefice total est : " . $benefice;
