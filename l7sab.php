@@ -1,6 +1,8 @@
 <?php
     $fileMars = "Mars.txt";
     $fileAvril = "Avril.txt";
+    $fileMai = "Mai.txt";
+    $fileJuin = "Juin.txt";
 
     function CalculerFile($file){
         $of = fopen($file,"r");
@@ -25,4 +27,8 @@
     CalculerFile($fileMars);
     echo("\n\n\n\n");
     CalculerFile($fileAvril);
+    echo("\n\n\n\n");
+    CalculerFile($fileMai);
+    echo("\n\n\n\n");
+    CalculerFile($fileJuin);
 ?>
